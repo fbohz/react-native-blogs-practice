@@ -10,8 +10,28 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate('Components')}
       />
       <TouchableOpacity onPress={() => navigation.navigate('List')}>
-        <Text>ListScreen</Text>
+        <Text>ListScreen (Touchable Opacity)</Text>
       </TouchableOpacity>
+      <Button 
+        title="Image" 
+        onPress={() => navigation.navigate('Image')}
+      />
+      <Button 
+        title="Counter" 
+        onPress={() => navigation.navigate('Counter')}
+      />
+      <Button 
+        title="Color" 
+        onPress={() => navigation.navigate('Color')}
+      />
+      <Button 
+        title="Square" 
+        onPress={() => navigation.navigate('Square')}
+      />
+      <Button 
+        title="Text" 
+        onPress={() => navigation.navigate('Text')}
+      />
     </View>
   )
 }
